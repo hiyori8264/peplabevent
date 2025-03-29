@@ -1,0 +1,258 @@
+<html>
+<head>
+<style>
+  body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #333;
+    line-height: 1.5;
+    background-color: #f9f9f9;
+  }
+  .flyer {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    padding: 40px;
+    position: relative;
+    overflow: hidden;
+  }
+  .header {
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+  }
+  .main-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1a365d;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+  }
+  .sub-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #2c5282;
+    margin-bottom: 5px;
+  }
+  .catchphrase {
+    font-style: italic;
+    font-size: 16px;
+    color: #4a5568;
+    margin-bottom: 20px;
+  }
+  .logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #2c5282;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+  .section {
+    margin-bottom: 30px;
+    border-top: 1px solid #e2e8f0;
+    padding-top: 20px;
+  }
+  .section-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #2c5282;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+  }
+  .section-title::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #2c5282;
+    margin-right: 10px;
+  }
+  .dates {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  .date-box {
+    background-color: #ebf8ff;
+    padding: 12px 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    font-weight: 500;
+  }
+  .highlight {
+    background-color: #1a365d;
+    color: white;
+    padding: 15px;
+    border-radius: 6px;
+    margin: 20px 0;
+    font-weight: 500;
+  }
+  .program {
+    background-color: #f0f9ff;
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+  }
+  .program-step {
+    margin-bottom: 15px;
+  }
+  .program-title {
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #2c5282;
+  }
+  .testimonial {
+    font-style: italic;
+    background-color: #f7fafc;
+    padding: 15px;
+    border-left: 4px solid #2c5282;
+    margin: 20px 0;
+  }
+  .contact {
+    background-color: #e6f7ff;
+    padding: 20px;
+    border-radius: 6px;
+    text-align: center;
+  }
+  .footer {
+    text-align: center;
+    font-style: italic;
+    margin-top: 30px;
+    color: #4a5568;
+  }
+  .accent-text {
+    color: #2c5282;
+    font-weight: 600;
+  }
+  .decoration {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgba(44, 82, 130, 0.05);
+    z-index: 0;
+  }
+  .decoration-1 {
+    top: -50px;
+    left: -50px;
+  }
+  .decoration-2 {
+    bottom: -70px;
+    right: -70px;
+    width: 200px;
+    height: 200px;
+  }
+</style>
+</head>
+<body>
+  <div class="flyer">
+    <div class="decoration decoration-1"></div>
+    <div class="decoration decoration-2"></div>
+    
+    <div class="header">
+      <div class="logo">PEP<br/>lab</div>
+      <div class="main-title">『採用を通じて感動を』</div>
+      <div class="sub-title">CONNECT HEARTS</div>
+      <div class="catchphrase">〜心を通わせる新卒採用イベント〜</div>
+    </div>
+    
+    <div class="highlight">
+      <strong>採用は数値だけではなく、共感と感動の積み重ね。</strong><br/>
+      貴社と学生が本気で向き合う一日を、ここから始めませんか？
+    </div>
+    
+    <div class="section">
+      <div class="section-title">イベント概要</div>
+      
+      <p><strong>【開催日程】</strong> ※各回 10:00〜19:00</p>
+      <div class="dates">
+        <div class="date-box">第1回：2025年6月21日(土)</div>
+        <div class="date-box">第2回：2025年7月19日(土)</div>
+        <div class="date-box">第3回：2025年8月23日(土)</div>
+        <div class="date-box">第4回：2025年9月20日(土)</div>
+      </div>
+      
+      <p><strong>【開催形式】</strong> 対面形式<br/>
+      <strong>【参加規模】</strong> 学生15〜20名／企業3社<br/>
+      <strong>【参加費用】</strong> 1社 198,000円（税込）</p>
+    </div>
+    
+    <div class="section">
+      <div class="section-title">"CONNECT HEARTS"とは</div>
+      
+      <p>テクノロジーが進化する採用市場で見失われがちな「<span class="accent-text">人間らしさ</span>」を取り戻す新しい採用体験です。</p>
+      
+      <p>効率化やAI分析も大切ですが、人は最終的に「感動」や「共感」で動きます。<br/>
+      本イベントでは、フィールドワークと社会学習を通して、貴社人事担当者と学生が共に学び、心を通わせる場を創出します。</p>
+    </div>
+    
+    <div class="section">
+      <div class="section-title">プログラム例：「都市再生プロジェクト」</div>
+      
+      <div class="program">
+        <div class="program-step">
+          <div class="program-title">1. 午前：フィールドワーク</div>
+          <div>都市の課題エリアを企業と学生がチームとなって探索</div>
+        </div>
+        
+        <div class="program-step">
+          <div class="program-title">2. 昼食：共有ランチタイム</div>
+          <div>発見した課題について自由に意見交換</div>
+        </div>
+        
+        <div class="program-step">
+          <div class="program-title">3. 午後：ソリューション立案</div>
+          <div>チームごとに解決策を考案し、プレゼンテーション</div>
+        </div>
+        
+        <div class="program-step">
+          <div class="program-title">4. クロージング：振り返りと交流会</div>
+          <div>一日の学びを共有し、深い対話の時間へ</div>
+        </div>
+      </div>
+      
+      <p style="font-size: 14px;">※プログラム内容は回によって異なります。詳細はお問い合わせください。</p>
+    </div>
+    
+    <div class="section">
+      <div class="section-title">参加企業の声</div>
+      
+      <div class="testimonial">
+        「数十名の合同説明会より、この1日で学生との距離が縮まりました」
+      </div>
+      
+      <div class="testimonial">
+        「スキルだけでなく、価値観や思考のプロセスを見ることができ、ミスマッチが減りました」
+      </div>
+    </div>
+    
+    <div class="contact">
+      <div class="section-title" style="justify-content: center;">お申し込み・お問い合わせ</div>
+      
+      <p>
+        <strong>PEP lab株式会社</strong><br/>
+        TEL: 03-XXXX-XXXX<br/>
+        Email: info@peplab.co.jp<br/>
+        URL: https://peplab.co.jp/connect-hearts
+      </p>
+    </div>
+    
+    <div class="footer">
+      採用のその先にある、感動と成長の物語を、一緒に紡いでいきましょう。
+    </div>
+  </div>
+</body>
+</html>
